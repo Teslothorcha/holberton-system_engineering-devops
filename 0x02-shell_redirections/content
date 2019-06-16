@@ -1,0 +1,13 @@
+total 44
+drwxr-xr-x 2 teslothorcha teslothorcha 4096 jun 16 11:48 .
+drwxr-xr-x 6 teslothorcha teslothorcha 4096 jun 16 10:42 ..
+-rwxr--r-- 1 teslothorcha teslothorcha   32 jun 16 10:56 0-hello_world
+-rwxr--r-- 1 teslothorcha teslothorcha   30 jun 16 10:59 1-confused_smiley
+-rwxr--r-- 1 teslothorcha teslothorcha   28 jun 16 11:05 2-hellofile
+-rwxr--r-- 1 teslothorcha teslothorcha   39 jun 16 11:07 3-twofiles
+-rwxr--r-- 1 teslothorcha teslothorcha   35 jun 16 11:21 4-lastlines
+-rwxr--r-- 1 teslothorcha teslothorcha   35 jun 16 11:25 5-firstlines
+-rwxr--r-- 1 teslothorcha teslothorcha   40 jun 16 11:32 6-third_line
+-rwxr--r-- 1 teslothorcha teslothorcha  111 jun 16 11:38 7-file
+-rw-r--r-- 1 teslothorcha teslothorcha    0 jun 16 11:48 content
+-rw-r--r-- 1 teslothorcha teslothorcha  411 jun 16 10:45 README.md
