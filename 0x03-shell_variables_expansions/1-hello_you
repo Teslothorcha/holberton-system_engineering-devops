@@ -1,2 +1,2 @@
 #!/bin/emacs
-echo hello $USER
+echo "hello $USER"
