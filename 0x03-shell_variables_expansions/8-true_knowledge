@@ -1,3 +1,3 @@
 #!/bin/bash
-$(($(TRUEKNWOLEDGE) + 128))
+$TRUEKNWOLEDGE+128
  
