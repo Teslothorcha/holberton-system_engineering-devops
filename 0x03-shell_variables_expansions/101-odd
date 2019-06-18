@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 'p;n'
+perl -ne 'print ((0 == 1. % 1) ? 1 : "")'
