@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#This script to print inlooop with case statemnt
+for l in *;
+do
+    echo "$l" | cut -d '-' -f 2
+done
