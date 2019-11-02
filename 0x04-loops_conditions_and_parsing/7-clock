@@ -10,5 +10,5 @@ do
 
     echo $m
 done
-    echo "Hour:"$h
+    echo "Hour: "$h
 done
