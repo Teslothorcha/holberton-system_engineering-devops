@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script will print a string 10 times
+c=9
+until [  $c -lt 0 ];
+do
+    echo "Holberton School"
+    let c-=1
+done
