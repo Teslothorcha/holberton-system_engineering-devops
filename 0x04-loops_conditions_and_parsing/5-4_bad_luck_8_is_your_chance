@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#This script will print a string 10 times with if statemnt
+c=10
+while [  $c -gt 0 ];
+do
+    if [ $c -eq 7 ]
+    then
+	echo "bad luck"
+    elif [ $c -eq 3 ]
+    then
+	echo "good luck"
+    else
+    echo "Holberton School"
+    fi
+    let c-=1
+done
