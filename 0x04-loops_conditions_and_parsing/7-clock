@@ -5,7 +5,7 @@ h=0
 while [  $((h++)) -lt 12 ];
 do
 m=0
-while [  $((m++)) -lt 60 ];
+while [  $((m++)) -lt 59 ];
 do
 
     echo $m
