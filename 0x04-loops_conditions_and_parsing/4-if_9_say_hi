@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-#This script will print a string 10 times
-c=0
-until [  $c -gt 9 ];
+#This script will print a string 10 times with if statemnt
+c=10
+while [  $c -gt 0 ];
 do
-    if [ $c -eq 8 ]
+    if [ $c -eq 1 ]
     then
 	echo "Hi"
     fi
     echo "Holberton School"
-    let c+=1
+    let c-=1
 done
