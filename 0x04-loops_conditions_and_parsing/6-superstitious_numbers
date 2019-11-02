@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-#This script will print a string 10 times with if statemnt
-c=1
-while [  $c -lt 21 ];
+#This script to print inlooop with case statemnt
+c=0
+while [  $((c++)) -lt 20 ];
 do
     case $c in
 	5)
-	    echo "bad luck from China "
+	    echo "bad luck from China"
 	    ;;
 	10)
 	    echo "bad luck from Japan"
@@ -15,5 +15,4 @@ do
 	    ;;
     esac
     echo $c
-    let c+=1
 done
