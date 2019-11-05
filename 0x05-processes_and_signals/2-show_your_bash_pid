@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Displayes only bash proceses
+# Displays  bash proceses
 # shellcheck disable=SC2009
 ps axuf | grep bash
