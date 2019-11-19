@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# ipv4 connections
+ifconfig -a | grep -w "inet" | cut -d ":" -f2 | cut -d ' ' -f1
