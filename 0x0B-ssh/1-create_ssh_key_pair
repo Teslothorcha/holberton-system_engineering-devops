@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#cretaes ssh keys with name and paraphrase
+ssh-keygen -f holberton -b 4096 -t rsa -P betty
