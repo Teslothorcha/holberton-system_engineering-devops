@@ -4,7 +4,7 @@
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
 echo "Holberton School" > /var/www/html/index.nginx-debian.html
-echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+echo "Ceci n'est pas une page\n" > /var/www/html/custom_404.html
 sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/youtube.com permanent;/" /etc/nginx/sites-available/default
 err="server_name _;\n\terror_page 404 \/404_error.html;\n\tlocation = \/404_error.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
 sudo sed -i "s/server_name _;/$err/" /etc/nginx/sites-available/default
