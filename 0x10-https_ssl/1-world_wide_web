@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Digs domain subdomains
+if [ $# -eq 1 ]
+then
+	list_domains="www.$1 lb-01.$1 web-01.$1 web-02.$1"
+else
+	list_domains="$2.$1"
+fi
+part_a="The subdomain"
+
+dig $list_domains | awk -v part_b="is a A record and points to" -v part_a="The subdomain" '/ANSWER SECTION:/ {getline; split($0,a,"."); print( part_a " " a[1] " "part_b " " $5"")}'
