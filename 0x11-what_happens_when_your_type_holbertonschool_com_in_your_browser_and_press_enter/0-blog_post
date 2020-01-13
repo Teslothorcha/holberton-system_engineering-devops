@@ -1,0 +1,43 @@
+with letters where as to remember information DNS will help us to find any web
+domain that we enter in our browser.
+
+HOW DOES DNS WORK ?
+There are 4 mayor players in this process:
+      *DNS Recursor:
+      	   It will handle all the request received by any user that types in
+	   a domain on any given browser. It will use your ISP(internet service
+	   provider). This agent has a memory to save information about domains
+	   that have been searched before, if that is the case it's roll will
+	   end rigth away otherwise it will begin to set up the rquest of the
+	   domain.
+
+      *Root Nameserver:
+      	   It will translate letters into numbers of the IP address
+
+      *TLD Nameserver:
+      	   It will specify the location in which the IP address is located
+
+      *Authoritative Nameserver:
+           It will translate the find the IP address on the specific location
+	   and return it to the browser. It will only respond to DNS queries.
+
+Once your domain has been translated to an actual IP address and the response
+has come back to your pc so it can open the desired website, you will be
+able to interact with the website, this meaning in most of the cases giving
+and receiving information
+
+All of this happens between your computer and the servers , so this information
+is being sent and received continuously which means that security should be
+established because this flow of information could have card numbers and
+passwords on it just to bring up a common example.
+
+A firewall is a system that will provide the desired security  by filtering
+incoming and outgoing network traffic. This step of security is essential to
+at least reduce or eliminate unwanted communications or interference.
+
+This security is protecting a specific traffic that is called TCP (Transport
+Control Protocol). It moves information around on packets , think of them
+as containers , these containers have information from the sender and the
+receiver and also information about the security that is set up on the traffic
+so that each time that the container is received by the receiver it can confirm
+back to the sender that it was successfully received.
