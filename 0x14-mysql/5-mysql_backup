@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# backup
+mysqldump --user=root --password="$1" --all-databases > backup.sql
+tar cfz "$(date +"%d-%m-%Y").tar.gz" backup.sql
