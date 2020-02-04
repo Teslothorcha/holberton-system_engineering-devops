@@ -12,12 +12,11 @@ to_dos = requests.get(
     params=parameters_t)
 to_dos_j = to_dos.json()
 
-parameters_u = (('id', sys.argv[1]),)
 user = requests.get(
-    'https://jsonplaceholder.typicode.com/users',
-    params=parameters_u)
+    'https://jsonplaceholder.typicode.com/users/{}'.format(sys.argv[1]))
 user_j = user.json()
-user_name = user_j[0]['name']
+print(user_j)
+user_name = user_j['name']
 
 completed_list = []
 for maybe in to_dos_j:
