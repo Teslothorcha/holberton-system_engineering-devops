@@ -10,13 +10,13 @@ def top_ten(subreddit):
         head = {"User-Agent": "Teslothorcha"}
         redit_req = requests.get(
             'https://api.reddit.com/r/{}/hot?sort=hot&limit=10'.format(
-            subreddit),
-            headers=head)
+                subreddit), headers=head)
         if redit_req.status_code == 404:
-            return 0
+            print(None)
+            return
         info = redit_req.json()
         num_hot = info['data']['children']
         for out in num_hot:
             print(out['data']['title'])
     except:
-        print('None')
+        print(None)
